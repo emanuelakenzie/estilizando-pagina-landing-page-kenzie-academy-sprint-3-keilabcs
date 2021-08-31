@@ -15,17 +15,17 @@
 
     <div class="large-container">
       <!-- LOGO -->
-      <figure>
-        <img src="assets/img/logo.svg" alt="Logo Kenzie Academy">
-        <figcaption>Logo Kenzie Academy</figcaption>  
+      <figure class = 'large-container--figure'>
+        <img class = "large-container--logokenzie" src="assets/img/logo.svg" alt="Logo Kenzie Academy">
+         
       </figure>
 
       <!-- MENU DE NAVEGAÇÃO -->
-      <nav>
-        <ul>
-          <li><a href="#1">Sobre a Kenzie</a></li>
-          <li><a href="#2">Agenda</a></li>
-          <li><a href="#3">Contato</a></li>
+      <nav class = 'navigationmenu'>
+        <ul class = 'navigationmenu--list'>
+          <li class = 'navegation'><a href="#1">Sobre a Kenzie</a></li>
+          <li class = 'navegation'><a href="#2">Agenda</a></li>
+          <li class = 'navegation'><a href="#3">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -38,13 +38,14 @@
     <!-- ÁREA DE DESTAQUE -->
     <section class="secaoDestaque">
 
-      <h2>Lorem ipsum dolor sit Python</h2>
-      <p>100% Online</p>
-
+      <div class = 'secaoDestaque--text'>
+        <h2 class = 'secaoDestaque--Title' class = 'destaque__title--extra'>Lorem ipsum dolor sit Python</h2>
+        <p class = 'secaoDestaque--paragrafo' >100% Online</p>
+      </div> 
       <!-- FORMULÁRIO -->
       <div class="secaoDestaqueFormulario">
         <input type="email"  placeholder="E-mail" required>
-        <button type="button">Subscribe</button>
+        <button class = 'largecontainer--button'type="button">Subscribe</button>
       </div>
 
     </section>
@@ -57,52 +58,53 @@
         <!-- COLUNA ESQUERDA -->
         <div class="flex-col">
 
-          <h2>LOREM IPSUM DOLOR SIT PYTHON</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti incidunt nam quibusdam fugit reprehenderit aperiam temporibus, maiores dolores molestias cupiditate maxime repudiandae sunt voluptatibus commodi tenetur dolorum ipsa sequi.
+          <h2 class="flex-col-title">LOREM IPSUM DOLOR SIT PYTHON</h2>
+          <p class="flex-col-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti incidunt nam quibusdam fugit reprehenderit aperiam temporibus, maiores dolores molestias cupiditate maxime repudiandae sunt voluptatibus commodi tenetur dolorum ipsa sequi.
           </p>
 
-          <span>Consectetur adipisicing elit 5 Suscipit deleniti incidunt nam quibusdam fugit reprehenderit aperiam.</span>
+          <span class="flex-col-span">Consectetur adipisicing elit 5 Suscipit deleniti incidunt nam quibusdam fugit reprehenderit aperiam.</span>
 
-          <button>Subscribe</button>
-
+          <div class = 'flex-col--divbutton'>
+             <button class = 'flex-col--button'>Subscribe</button>
+          </div>
         </div>
 
         <!-- COLUNA DIREITA -->
-        <div class="flex-col">
+        <div class="flex--phyton_img">
 
           <figure>
-            <img src="assets/img/python.png" alt="python">
-            <figcaption>python</figcaption>  
+            <img  class = ' phyton--img' src="assets/img/python.png" alt="python">
+             
           </figure>      
 
         </div>
 
-        <!-- COLUNA ESQUERDA -->
-        <div class="flex-col">
-
-            <figure>
-              <img src="assets/img/JavaScript-logo.png" alt="Java Script">
-              <figcaption>Java Script</figcaption>  
-            </figure>      
+        
+              
   
           </div>
 
         <!-- COLUNA DIREITA -->
-        <div class="flex-col">
+        <div class = 'flex-col_two'>
+          <div class="flex--js_img">
 
-            <h2> LOREM IPSUM DOLOR SIT JAVASCRIPT</h2>
-            <ul>
-                <li>The standard Lorem Ipsum passage, used since the 1500s</li>
-                <li>Section 1.10.32 of "de Finibus Bonorum et Malorum" by Cicero in 45 BC</li>
-                <li>1914 translation by H. Rackham</li>
-                <li>Section 1.10.33 of "de Finibus Bonorum et Malorum", by Cicero in 45 BC</li>
-                <li>1914 translation by H. Rackham</li>
-            </ul>
-
-        </div>
-
-        
-
+            <figure>
+              <img  class =' js--img'  src="assets/img/JavaScript-logo.png" alt="Java Script">
+             
+            </figure>
+          </div>
+          
+            <div class = 'flex-col2-informations'>
+              <h2 class="flex-col-title"> LOREM IPSUM DOLOR SIT JAVASCRIPT</h2>
+                 <ul class ='flex-col--list' >
+                   <li class = 'col2--listitens'>The standard Lorem Ipsum passage, used since the 1500s</li>
+                    <li class = 'col2--listitens'>Section 1.10.32 of "de Finibus Bonorum et Malorum" by Cicero in 45 BC</li>
+                    <li class = 'col2--listitens'>1914 translation by H. Rackham</li>
+                    <li class = 'col2--listitens'>Section 1.10.33 of "de Finibus Bonorum et Malorum", by Cicero in 45 BC</li>
+                    <li class = 'col2--listitens'>1914 translation by H. Rackham</li>
+                  </ul>
+            </div>
+          </div>
       </article>
 
     </section>
@@ -111,10 +113,10 @@
     <section class="secaoCursos">
 
       <article>
-
-        <h2>COURSES</h2>
-        <p>What we offer</p>
-
+        <div class = 'secaoCursos-header'>
+         <h2 class = 'secaoCursos-header--title'>COURSES</h2>
+          <p class = 'secaoCursos-header--subtitle'>What we offer</p>
+        </div>
         <!-- LISTA DE CURSOS -->
         <ul>
         
